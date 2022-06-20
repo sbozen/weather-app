@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
+body{
+
+    background-color: #FEFEFE;
+    /* font-family: 'Open Sans', sans-serif;  */
+    font-family: 'Kdam Thmor Pro', sans-serif;
+
+}
+.banner::before{
+    content: "Weather App ";  
+    color: #FBBA59;
+    font-size: 35px;
+    font-weight: bold;
+    position: relative;
+    text-align: center; 
+    top: 10px;
+    right: -15rem; 
+
+}
+.banner::after{
+    content: "• Turkey Cities •";
+    display: block;
+    clear: both;  
+    margin: -15vh 0 0 0;
+}
+ 
+.banner-img{
+    width: 30rem;
+    height: 20rem;
+    position: relative;
+    right: -15rem;
+    top: -3rem;
+}
+.card{
+        background-color: #f08f0638;
+        color: #000;
+    ;}
+
+footer{  
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: fit-content;
+    background: #f9a8262a;
+    margin-top: 20%;
+}
+.btn{
+    background-color: #f67315;
+    color: #ffffff;
+    border: none;
+} 
+.btn:hover{
+    background-color: #ff6a00;
+    color: #ffffff;
+    border: none;
+}
+.status{ 
+    font-size: 1.5rem; 
+    text-align: center;
+    margin-top: 1rem;   
+    font-variant: small-caps;   
+}
+         
